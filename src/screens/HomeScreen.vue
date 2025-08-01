@@ -103,6 +103,7 @@ const continueWatching = ref([
     id: 1,
     title: 'The Dark Knight',
     year: '2008',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?w=200&h=300&fit=crop',
     progress: 65
   },
@@ -110,6 +111,7 @@ const continueWatching = ref([
     id: 2,
     title: 'Inception',
     year: '2010',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=200&h=300&fit=crop',
     progress: 30
   },
@@ -117,6 +119,7 @@ const continueWatching = ref([
     id: 3,
     title: 'Interstellar',
     year: '2014',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=300&fit=crop',
     progress: 90
   }
@@ -125,20 +128,23 @@ const continueWatching = ref([
 const whatsNew = ref([
   {
     id: 4,
-    title: 'Dune: Part Two',
-    year: '2024',
+    title: 'Stranger Things',
+    year: '2016',
+    type: 'series',
     thumbnail: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=300&fit=crop'
   },
   {
     id: 5,
     title: 'Avatar: The Way of Water',
     year: '2022',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=200&h=300&fit=crop'
   },
   {
     id: 6,
-    title: 'Top Gun: Maverick',
+    title: 'Wednesday',
     year: '2022',
+    type: 'series',
     thumbnail: 'https://images.unsplash.com/photo-1478720568477-b0a8d129c8d4?w=200&h=300&fit=crop'
   }
 ])
@@ -148,18 +154,21 @@ const thrills = ref([
     id: 7,
     title: 'John Wick 4',
     year: '2023',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1489599962684-9ab6e7e6e2b0?w=200&h=300&fit=crop'
   },
   {
     id: 8,
     title: 'Mad Max: Fury Road',
     year: '2015',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1434394354979-a235cd36269d?w=200&h=300&fit=crop'
   },
   {
     id: 9,
     title: 'Mission: Impossible',
     year: '2023',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=200&h=300&fit=crop'
   }
 ])

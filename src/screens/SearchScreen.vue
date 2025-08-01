@@ -48,7 +48,7 @@
           />
           <div class="flex-1">
             <h3 class="text-white font-medium">{{ movie.title }}</h3>
-            <p class="text-gray-400 text-sm">{{ movie.year }} • {{ movie.genre }}</p>
+            <p class="text-gray-400 text-sm">{{ movie.year }} • {{ movie.genre }} • {{ movie.type === 'movie' ? 'Movie' : 'Series' }}</p>
           </div>
           <ChevronRightIcon class="w-5 h-5 text-gray-400" />
         </div>
@@ -104,6 +104,8 @@ const activeFilter = ref('featured')
 
 const filters = ref([
   { id: 'featured', name: 'Featured' },
+  { id: 'movies', name: 'Movies' },
+  { id: 'series', name: 'Series' },
   { id: 'drama', name: 'Drama' },
   { id: 'scifi', name: 'Sci-Fi' },
   { id: 'thriller', name: 'Thriller' },
@@ -116,6 +118,7 @@ const trending = ref([
     id: 10,
     title: 'Wednesday',
     year: '2022',
+    type: 'series',
     genre: 'Mystery',
     thumbnail: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop'
   },
@@ -123,6 +126,7 @@ const trending = ref([
     id: 11,
     title: 'The Queen\'s Gambit',
     year: '2020',
+    type: 'series',
     genre: 'Drama',
     thumbnail: 'https://images.unsplash.com/photo-1596877826717-e4c28d3e9b11?w=200&h=200&fit=crop'
   },
@@ -130,6 +134,7 @@ const trending = ref([
     id: 12,
     title: 'Squid Game',
     year: '2021',
+    type: 'series',
     genre: 'Thriller',
     thumbnail: 'https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=200&h=200&fit=crop'
   }
@@ -140,18 +145,21 @@ const forYou = ref([
     id: 13,
     title: 'The Witcher',
     year: '2019',
+    type: 'series',
     thumbnail: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=200&h=300&fit=crop'
   },
   {
     id: 14,
     title: 'House of Cards',
     year: '2013',
+    type: 'series',
     thumbnail: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=200&h=300&fit=crop'
   },
   {
     id: 15,
     title: 'Breaking Bad',
     year: '2008',
+    type: 'series',
     thumbnail: 'https://images.unsplash.com/photo-1489599962684-9ab6e7e6e2b0?w=200&h=300&fit=crop'
   }
 ])
@@ -161,18 +169,21 @@ const spaceMovies = ref([
     id: 16,
     title: 'Interstellar',
     year: '2014',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=200&h=300&fit=crop'
   },
   {
     id: 17,
     title: 'Gravity',
     year: '2013',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=200&h=300&fit=crop'
   },
   {
     id: 18,
     title: 'The Martian',
     year: '2015',
+    type: 'movie',
     thumbnail: 'https://images.unsplash.com/photo-1457364887197-9150188c107b?w=200&h=300&fit=crop'
   }
 ])

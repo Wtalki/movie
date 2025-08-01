@@ -6,6 +6,15 @@
         :alt="movie.title"
         class="w-full h-32 object-cover"
       />
+      <!-- Type indicator badge -->
+      <div class="absolute top-2 left-2">
+        <span 
+          class="px-2 py-1 text-xs font-medium rounded-md"
+          :class="movie.type === 'movie' ? 'bg-blue-500 text-white' : 'bg-green-500 text-white'"
+        >
+          {{ movie.type === 'movie' ? 'Movie' : 'Series' }}
+        </span>
+      </div>
       <div v-if="showPlayButton" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
         <div class="w-12 h-12 bg-white bg-opacity-80 rounded-full flex items-center justify-center">
           <PlayIcon class="w-6 h-6 text-black ml-1" />
