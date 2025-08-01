@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html, body, #app {
+    height: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .movie-card {
+    @apply bg-dark-card rounded-xl overflow-hidden shadow-lg transition-transform duration-200 hover:scale-105;
+  }
+  
+  .nav-item {
+    @apply flex flex-col items-center justify-center p-2 transition-colors duration-200;
+  }
+  
+  .nav-item.active {
+    @apply text-neon;
+  }
+  
+  .filter-chip {
+    @apply px-4 py-2 rounded-full bg-dark-lighter text-sm transition-all duration-200;
+  }
+  
+  .filter-chip.active {
+    @apply bg-neon text-black;
+  }
+  
+  .scroll-container {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+}
