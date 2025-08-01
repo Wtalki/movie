@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-card relative" @click="$emit('click')">
+  <div class="movie-card relative h-48" @click="$emit('click')">
     <div class="relative">
       <img 
         :src="movie.thumbnail" 
@@ -24,8 +24,8 @@
         <div class="h-full bg-neon" :style="{ width: `${movie.progress}%` }"></div>
       </div>
     </div>
-    <div v-if="showDetails" class="p-3">
-      <h3 class="text-sm font-medium text-white mb-1 line-clamp-2">{{ movie.title }}</h3>
+    <div v-if="showDetails" class="p-3 flex-1 flex flex-col">
+      <h3 class="text-sm font-medium text-white mb-1 line-clamp-2 flex-1">{{ movie.title }}</h3>
       <p class="text-xs text-gray-400">{{ movie.year }}</p>
     </div>
   </div>
