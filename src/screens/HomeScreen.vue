@@ -27,6 +27,9 @@
       </div>
     </div>
 
+    <!-- Movie Categories -->
+    <MovieCategory @category-changed="handleCategoryChange" />
+
     <!-- Continue Watching -->
     <div class="px-4 mb-8">
       <SectionTitle title="Continue Watching" :show-see-all="true" />
@@ -78,6 +81,9 @@
         </div>
       </div>
     </div>
+
+    <!-- Movie Types -->
+    <MovieTypes />
   </div>
 </template>
 
@@ -87,6 +93,8 @@ import { useRouter } from 'vue-router'
 import { PlayIcon } from '@heroicons/vue/24/solid'
 import MovieCard from '../components/MovieCard.vue'
 import SectionTitle from '../components/SectionTitle.vue'
+import MovieCategory from '../components/MovieCategory.vue'
+import MovieTypes from '../components/MovieTypes.vue'
 
 const router = useRouter()
 
@@ -158,5 +166,11 @@ const thrills = ref([
 
 const goToMovie = (id) => {
   router.push(`/movie/${id}`)
+}
+
+const handleCategoryChange = (categoryId) => {
+  console.log('Category changed to:', categoryId)
+  // Here you could filter movies based on the selected category
+  // For now, we'll just log the change
 }
 </script>
