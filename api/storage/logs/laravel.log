@@ -1,0 +1,95 @@
+[2025-08-02 00:07:48] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /workspace/api/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-08-02 00:07:48] laravel.ERROR: The /workspace/api/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /workspace/api/bootstrap/cache directory must be present and writable. at /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:178)
+[stacktrace]
+#0 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(131): Illuminate\\Foundation\\PackageManifest->write()
+#1 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(107): Illuminate\\Foundation\\PackageManifest->build()
+#2 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate\\Foundation\\PackageManifest->config()
+#4 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(286): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 /workspace/api/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2025-08-02 00:07:55] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#7 /workspace/api/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-08-02 00:07:55] laravel.ERROR: Class "App\Providers\AppServiceProvider" not found {"exception":"[object] (Error(code: 0): Class \"App\\Providers\\AppServiceProvider\" not found at /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:206)
+[stacktrace]
+#0 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(142): Illuminate\\Foundation\\ProviderRepository->createProvider()
+#1 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest()
+#2 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(794): Illuminate\\Foundation\\ProviderRepository->load()
+#3 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(286): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
+#5 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /workspace/api/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2025-08-02 00:08:22] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:212)
+[stacktrace]
+#0 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(137): Illuminate\\Log\\LogManager->resolve()
+#1 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(124): Illuminate\\Log\\LogManager->get()
+#2 /workspace/api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\\Log\\LogManager->error()
+#4 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#5 /workspace/api/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#6 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(523): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report()
+#7 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(203): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#8 /workspace/api/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2025-08-02 00:08:22] laravel.ERROR: require(/workspace/api/routes/web.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): require(/workspace/api/routes/web.php): Failed to open stream: No such file or directory at /workspace/api/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35)
+[stacktrace]
+#0 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /workspace/api/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():254}()
+#2 /workspace/api/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require('...')
+#3 /workspace/api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(511): Illuminate\\Routing\\RouteFileRegistrar->register()
+#4 /workspace/api/vendor/laravel/framework/src/Illuminate/Routing/Router.php(465): Illuminate\\Routing\\Router->loadRoutes()
+#5 /workspace/api/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(194): Illuminate\\Routing\\Router->group()
+#6 /workspace/api/app/Providers/RouteServiceProvider.php(37): Illuminate\\Routing\\RouteRegistrar->group()
+#7 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Providers\\RouteServiceProvider->{closure:App\\Providers\\RouteServiceProvider::boot():31}()
+#8 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#9 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#10 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#11 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#12 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(120): Illuminate\\Container\\Container->call()
+#13 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#14 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->{closure:Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider::register():39}()
+#15 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#16 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#17 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#18 /workspace/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#19 /workspace/api/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php(119): Illuminate\\Container\\Container->call()
+#20 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1062): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#21 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1040): Illuminate\\Foundation\\Application->bootProvider()
+#22 [internal function]: Illuminate\\Foundation\\Application->{closure:Illuminate\\Foundation\\Application::boot():1039}()
+#23 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1039): array_walk()
+#24 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#25 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(286): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#26 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate\\Foundation\\Application->bootstrapWith()
+#27 /workspace/api/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#28 /workspace/api/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#29 {main}
+"} 
